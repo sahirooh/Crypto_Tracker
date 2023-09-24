@@ -1,0 +1,18 @@
+.appTitle{
+    flex: 1;
+    color: gold;
+    font-family: "Montserrat";
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.temp {
+    color: grey;
+}
+
+.logo {
+    position: absolute;
+    left: 180px;
+    height: 3em !important;
+    width: 6em !important;
+  }
