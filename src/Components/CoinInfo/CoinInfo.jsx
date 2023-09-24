@@ -1,13 +1,11 @@
-import { createTheme } from '@material-ui/core';
+import { createTheme } from '@mui/material';
 import React, { useEffect, useState } from 'react';
 import {CryptoToContext} from '../../CryptoContext';
 import { ThemeProvider } from '@mui/material/styles';
-import { dark } from '@material-ui/core/styles/createPalette';
 import "./CoinInfo.css";
 import CircularProgress from '@mui/material/CircularProgress';
 import Box from '@mui/material/Box';
 import { Line } from 'react-chartjs-2';
-import Chart from 'chart.js/auto';
 
 
 const CoinInfo = ({coin}) => {
